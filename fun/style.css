@@ -1,0 +1,272 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f8f8f8;
+  padding: 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding-left: 3rem;
+}
+
+.logo img {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 20px;
+  font-size: 24px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+}
+
+.phone-number {
+  text-align: right;
+  padding: none;
+}
+
+.phone-number a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 24px;
+  padding: 2rem;
+}
+
+@media screen and (max-width: 767px) {
+  .phone-number {
+    display: none;
+  }
+}
+
+
+
+.hero-section {
+  background-image: url(pizza-background.jpg);
+  background-size: cover;
+  background-position: center;
+  color: black;
+  text-align: center;
+  padding: 25px 0;
+}
+
+.hero-content h1 {
+  font-size: 64px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #ff5252;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.hero-content .btn {
+  font-size: 32px;
+}
+
+.description {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 48px;
+}
+
+.description p {
+  font-size: 32px;
+  color: #888;
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+
+.menu-section {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.menu-section h2 {
+  font-size: 32px;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.menu-item {
+  margin: 0 20px;
+  max-width: 500px;
+  text-align: center;
+}
+
+.menu-item img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.menu-item h3 {
+  margin-top: 10px;
+  font-size: 34px;
+}
+
+.menu-item p {
+  margin-top: 10px;
+  color: #777;
+  font-size: 22px;
+}
+
+.price {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.locations-section {
+  background-color: #f5f5f5;
+  padding: 50px 0;
+  text-align: center;
+  background-image: url('images/map.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.locations-section h2 {
+  margin-bottom: 20px;
+  font-size: 32px;
+}
+
+.location {
+  margin-bottom: 20px;
+  
+}
+
+.maps-btn {
+  display: inline-block;
+  background-color: #ff5252;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.contact-section {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.contact-section h2 {
+  margin-bottom: 20px;
+  font-size: 32px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+form button[type="submit"] {
+  background-color: #2196F3;
+  color: #fff;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Rest of the CSS remains the same */
+
+.contact-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+  background-color: #2196F3;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Rest of the CSS remains the same */
+/* Rest of the CSS remains the same */
+
+.banner {
+  text-align: center;
+  max-width: 100%;
+  max-height: 300px;
+  margin: 0 auto;
+  overflow: hidden;
+  left: 162px;
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+  margin-top: -220px;
+}
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 100%;
+  max-height: 300px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+}
